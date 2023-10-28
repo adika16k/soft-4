@@ -1,2 +1,5 @@
-package PACKAGE_NAME;public class ProductFactory {
+class ProductFactory {
+    public Product createProduct(String name, double price) {
+        return new Product(name, price);
+    }
 }
